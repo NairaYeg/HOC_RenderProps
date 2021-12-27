@@ -20,7 +20,7 @@ function App() {
     //     )}
     //   />  */}
       <div>
-        <h4>This code is written using the HOC pattern. </h4>
+        <h4>This code is written using the RenderProps pattern. </h4>
         <Counter>
           {(count, handleIncrementCount) => (
             <HoverCounter
@@ -39,7 +39,7 @@ function App() {
         </Counter>
       </div>
       <div>
-        <h4>This code is written using the RenderProps pattern. </h4>
+        <h4>This code is written using the HOC pattern. </h4>
         <WithCounter WrappedComponent={ClickCounter} />
         <WithCounter WrappedComponent={HoverCounter} />
       </div>
